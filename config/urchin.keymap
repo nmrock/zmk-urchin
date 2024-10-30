@@ -101,8 +101,8 @@
 			label = "Sym.";
 			bindings = <
 			&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-			&kp LT &kp DLLR &kp LPAR &kp LBRC &kp LBKT  &kp EQL &kp QUES &kp SQUOT &kp MINUS &kp AST
-			&kp GREAT &kp PERC &kp RPAR &kp RBRC &kp RBKT 	&kp AT &kp EXCL &kp DQUOT &kp PLUS &kp FSLH
+			&kp LT &kp DLLR &kp LPAR &kp LBRC &kp LBKT  &kp EQUAL &kp QMARK &kp SQT &kp MINUS &kp ASTRK
+			&kp GREAT &kp PERC &kp RPAR &kp RBRC &kp RBKT 	&kp AT &kp EXCL &kp DQT &kp PLUS &kp FSLH
 														&mo FNC  &mo SYM2       &trans &trans
 			>;
 		};
