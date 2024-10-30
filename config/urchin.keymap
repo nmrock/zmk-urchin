@@ -133,7 +133,7 @@
 		symbols_2_layer {
 			label = "Sym.2";
 			bindings = <
-			&kp CARET &kp UNDER &none &pnone &kp HASH         &none &none &none &none &none 
+			&kp CARET &kp UNDER &none &none &kp HASH         &none &none &none &none &none 
 			&kp GRAVE &kp TILDE &kp BSLH &kp PIPE &kp AMPS         &none &none &none &none &none
 			&none 			&none 			 &none &none &none   				  &none &none &none &none &none
 																	&none &none        	&none &none 
