@@ -100,9 +100,9 @@
 		sym_layer {
 			label = "Sym.";
 			bindings = <
-			&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-			&kp LT &kp DLLR &kp LPAR &kp LBRC &kp LBKT    &kp EQUAL &kp QMARK &kp SQT &kp MINUS &kp ASTRK 
-			&kp GT &kp PRCNT &kp RPAR &kp RBRC &kp RBKT 	&kp AT &kp EXCL &kp DQT &kp PLUS &kp FSLH
+			&kp N1 &kp N2 &kp N3 &kp N4 &kp N5            &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
+			&kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp  MINUS &kp EQUAL &kp LPAR &kp LBKT &kp LBRC 
+			&kp CARET &kp AMPS &kp ASTRK &kp RBRC &kp RBKT 	&kp UNDER &kp PLUS &kp RPAR &kp RBKT &kp RBRC
 														&mo FNC  &mo SYM2       &trans &trans
 			>;
 		};
@@ -112,8 +112,8 @@
 			label = "Mods";
 			bindings = <
 			&kp ESC  &kp C_PREV &kp C_PP  &kp C_NEXT  &kp C_PAUSE    	&kp PG_UP  &kp HOME &kp UP &kp END &kp CAPS
-			&sk LALT &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 			&kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT   &kp DEL
-			&kp LC(Z)  &kp LC(X) &kp LC(C) &kp TAB   &kp LC(V)          &kp LC(BSPC) &kp BSPC &trans &trans  &trans
+			&sk LCTRL  &sk LALT  &sk LGUI  &sk LG(F)  &kp RALT 			&kp LEFT &kp DOWN  &kp UP  &kp RIGHT &kp SQT
+			&kp LG(Z)  &kp LG(X) &kp LG(C) &kp TAB   &kp LG(V)          &kp LA(BSPC) &kp BSPC &kp DEL &kp LA(DEL)  &trans
 																		&trans &kp LCTRL    &kp ENTER  &mo FNC 
 			>;
 		};
