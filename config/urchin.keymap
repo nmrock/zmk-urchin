@@ -111,7 +111,7 @@
 		ext_layer {
 			label = "Mods";
 			bindings = <
-			&kp LG(Q)  &kp LG(W) &sk LCTRL &kp LG(R)  &kp LG(T)    	&kp LA(BSPC)  &kp LA(DEL) &kp UP &kp END &kp ESC
+			&kp LG(Q)  &kp LG(W) &sk LCTRL &kp LG(R)  &kp LG(T)    	&kp LA(BSPC)  &kp LA(DEL) &kp TAB &kp END &kp ESC
 			&kp LG(A)  &kp LG(S) &sk LGUI  &kp LG(F)  &sk RALT 			&kp LEFT &kp DOWN  &kp UP  &kp RIGHT &sk LALT
 			&kp LG(Z)  &kp LG(X) &kp LG(C) &kp LG(V)   &kp TAB          &kp LG(N) &kp BSPC &kp DEL &kp LA(DEL) &kp GRAVE
 																		&trans &kp LCTRL    &kp ENTER  &mo FNC 
