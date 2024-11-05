@@ -73,12 +73,12 @@
 			key-positions = <30 31>;
 			bindings = <&mo SETTINGS>;
 		};
-		// left index & middle fingers (home-row)
+		// b and n
 		// hold control & space for Adobe workflow
 		combo_ctrl_space {
 			timeout-ms = <200>;
-			key-positions = <12 13>;
-			bindings = <&kp LC(SPACE)>;
+			key-positions = <23 24>;
+			bindings = <&kp LG(SPACE)>;
 			layers = <BASE>;
 		};
 	};
@@ -111,8 +111,8 @@
 		ext_layer {
 			label = "Mods";
 			bindings = <
-			&kp LG(Q)  &kp LG(W) &sk LCTRL &kp LG(R)  &kp LG(T)    	&kp LA(BSPC)  &kp LA(DEL) &kp TAB &kp END &kp ESC
-			&kp LG(A)  &kp LG(S) &sk LGUI  &kp LG(F)  &sk LSHIFT 			&kp LEFT &kp DOWN  &kp UP  &kp RIGHT &sk LALT
+			&kp ESC  &kp C_PREV &kp C_PP  &kp C_NEXT  &kp C_PAUSE   	&kp LA(BSPC)  &kp LA(DEL) &kp TAB &kp END &kp ESC
+			&sk LCTRL  &sk LALT  &sk LGUI &sk LSHIFT &kp RALT 			&kp LEFT &kp DOWN  &kp UP  &kp RIGHT &sk LALT
 			&kp LG(Z)  &kp LG(X) &kp LG(C) &kp LG(V)   &kp TAB          &kp LG(N) &kp BSPC &kp DEL &kp LA(DEL) &kp GRAVE
 																		&trans &kp LCTRL    &kp ENTER  &mo FNC 
 			>;
